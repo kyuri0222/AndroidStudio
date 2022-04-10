@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HW3</string>
+    <string name="results">Results: %s</string>
+</resources>
