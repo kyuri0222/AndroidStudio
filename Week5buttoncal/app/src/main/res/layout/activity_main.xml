@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:columnCount="5">
+    <EditText
+        android:id = "@+id/num1"
+        android:textSize="15sp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="5"
+        android:hint="Num1" />
+    <EditText
+        android:id = "@+id/num2"
+        android:textSize="15sp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="5"
+        android:hint="Num2"/>
+    <Button
+        android:id = "@+id/B0"
+        android:layout_width="0dp"
+        android:textSize="15sp"
+        android:layout_columnWeight="1"
+        android:text="0" />
+    <Button
+        android:id = "@+id/B1"
+        android:layout_width="0dp"
+        android:textSize="15sp"
+        android:layout_columnWeight="1"
+        android:text="1" />
+    <Button
+        android:id = "@+id/B2"
+        android:layout_width="0dp"
+        android:textSize="15sp"
+        android:layout_columnWeight="1"
+        android:text="2" />
+    <Button
+        android:id = "@+id/B3"
+        android:layout_width="0dp"
+        android:textSize="15sp"
+        android:layout_columnWeight="1"
+        android:text="3" />
+    <Button
+        android:id = "@+id/B4"
+        android:layout_width="0dp"
+        android:textSize="15sp"
+        android:layout_columnWeight="1"
+        android:text="4" />
+    <Button
+        android:id = "@+id/B5"
+        android:layout_width="0dp"
+        android:textSize="15sp"
+        android:layout_columnWeight="1"
+        android:text="5" />
+    <Button
+        android:id = "@+id/B6"
+        android:layout_width="0dp"
+        android:textSize="15sp"
+        android:layout_columnWeight="1"
+        android:text="6" />
+    <Button
+        android:id = "@+id/B7"
+        android:layout_width="0dp"
+        android:textSize="15sp"
+        android:layout_columnWeight="1"
+        android:text="7" />
+    <Button
+        android:id = "@+id/B8"
+        android:layout_width="0dp"
+        android:textSize="15sp"
+        android:layout_columnWeight="1"
+        android:text="8" />
+    <Button
+        android:id = "@+id/B9"
+        android:layout_width="0dp"
+        android:textSize="15sp"
+        android:layout_columnWeight="1"
+        android:text="9" />
+
+    <Button
+        android:id = "@+id/add"
+        android:textSize="15sp"
+        android:layout_columnSpan="5"
+        android:layout_gravity="fill_horizontal"
+        android:text="add" />
+
+    <Button
+        android:id = "@+id/sub"
+        android:textSize="15sp"
+        android:layout_columnSpan="5"
+        android:layout_gravity="fill_horizontal"
+        android:text="sub" />
+
+    <Button
+        android:id = "@+id/mul"
+        android:textSize="15sp"
+        android:layout_columnSpan="5"
+        android:layout_gravity="fill_horizontal"
+        android:text="mul" />
+
+    <Button
+        android:id = "@+id/div"
+        android:textSize="15sp"
+        android:layout_columnSpan="5"
+        android:layout_gravity="fill_horizontal"
+        android:text="div" />
+
+    <TextView
+        android:id = "@+id/result"
+        android:layout_columnSpan="5"
+        android:layout_gravity="fill_horizontal"
+        android:textSize="30sp"
+        android:text="@string/res" />
+
+</GridLayout>
+

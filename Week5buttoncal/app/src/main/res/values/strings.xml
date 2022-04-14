@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Week5buttoncal</string>
+    <string name="num1">Num1</string>
+    <string name="num2">Num2</string>
+    <string name="B0">0</string>
+    <string name="B1">1</string>
+    <string name="B2">2</string>
+    <string name="B3">3</string>
+    <string name="B4">4</string>
+    <string name="B5">5</string>
+    <string name="B6">6</string>
+    <string name="B7">7</string>
+    <string name="B8">8</string>
+    <string name="B9">9</string>
+    <string name="add">add</string>
+    <string name="sub">sub</string>
+    <string name="mul">mul</string>
+    <string name="div">div</string>
+    <string name="results">Results: %s</string>
+    <string name="res">Results</string>
+</resources>
