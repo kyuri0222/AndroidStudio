@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StopWatch</string>
+    <string name="time">예약에 걸린 시간 %s</string>
+    <string name="start">예약시작</string>
+    <string name="end">예약완료</string>
+    <string name="rdoTime">시간 설정</string>
+    <string name="rdoCal">날짜 설정</string>
+    <string name="done">%s년 %s월 %s일 %s시 %s분</string>
+</resources>
