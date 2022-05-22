@@ -25,6 +25,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?) : Boolean{
+        super.onCreateOptionsMenu(menu) //
+
         menu?.add(0,1,0,"Draw Line")
         menu?.add(0,2,0,"Draw Circle")
         menu?.add(0,3,0,"Draw Rectangle")
@@ -50,12 +52,11 @@ class MainActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-    class SimplePainter(context: Context) : View(context){
+    private class SimplePainter(context: Context) : View(context){
         var startX = -1
         var startY = -1
         var stopX = -1
         var stopY = -1
-        val paint = Paint()
 
         override fun onTouchEvent(event: MotionEvent?) : Boolean{
             when (event?.action){
@@ -85,6 +86,8 @@ class MainActivity : AppCompatActivity() {
 
         override fun onDraw(canvas: Canvas){
             super.onDraw(canvas)
+            val paint = Paint()
+
             paint.isAntiAlias = true
             paint.strokeWidth = 5f
             paint.style = Paint.Style.STROKE
@@ -93,6 +96,7 @@ class MainActivity : AppCompatActivity() {
             for (i in historyList.indices) {
                 val shape = historyList[i]
                 when (shape.shapeType){
+
                     LINE -> canvas.drawLine(
                         shape.startX.toFloat(),
                         shape.startY.toFloat(),
@@ -140,7 +144,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 RECTANGLE->{
                     val rect = Rect (startX, startX, stopX, stopY)
-                    canvas?.drawRect(rect, paint)
+                    canvas.drawRect(rect, paint)
                 }
             }
         }
