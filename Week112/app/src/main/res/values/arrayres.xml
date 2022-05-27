@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="foods_array">
+        <item>"치킨"</item>
+        <item>"떡볶이"</item>
+        <item>"피자"</item>
+    </string-array>
+</resources>
